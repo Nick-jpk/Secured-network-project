@@ -1,0 +1,8 @@
+mkdir -p public/css public/files public/assets
+# move your html + css into public
+git mv index.html public/index.html
+git mv download.html public/download.html || true
+git mv about.html public/about.html || true
+git mv contact.html public/contact.html || true
+git mv css/style.css public/css/style.css || true
+# add your config files into public/files
